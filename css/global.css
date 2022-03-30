@@ -1,0 +1,157 @@
+
+/*
+====================================================================================================================================================================
+                                                    Start Global Properties
+====================================================================================================================================================================
+*/
+body{
+    font-family: 'poppins';
+    overflow-x: hidden;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #3b3b3b;
+}
+.navbar a{
+    text-decoration: none;
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 20px;
+}
+.navbar img{
+    margin-left: 15px;
+}
+.navbar a:hover {
+    background-color:#045fa6;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    background-color: #045fa6;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+    /* align-items: center; */
+}
+button:hover{
+    background-color: #e05200;
+    
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#css > h2, h6{
+    
+    float: right;
+}
+#css-button{
+    float: right;
+}
+.courses{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.course-img{
+    width: 35%;
+    float: right;
+}
+.course-img img{
+    width: 85%;
+    border-radius: 10px;
+
+}
+.course-texts{
+    padding: 10px;
+    margin: 15px;
+}
+.course-texts h6{
+    font-size: 15px;
+}
+.course-texts h2{
+    font-size: 25px;
+}
+
+
+.learntech{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 50px 10px;
+    margin-bottom:10px;
+    padding: 50px;
+}
+.second-section-boxes{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxes{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 15px 0px;
+    border: none;
+    background-color: #d1ebff;
+}
+.boxes img{
+    width: 80%;
+}
+.boxes p{
+    text-align: justify;
+    width: 90%;
+    transition: box-shadow .3s;
+    
+    /* padding-bottom: 10px; */
+}
+.boxes:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+footer{
+    background-color: #3b3b3b;
+    height:50px;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+}
+#footer{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center!important;
+
+}
+
+#logo{
+    float: left!important;
+}
+/*
+====================================================================================================================================================================
+                                                    End Global Properties
+====================================================================================================================================================================
+*/
